@@ -1,5 +1,5 @@
 <?php
-require 'config.php';
+require 'config.example.php';
 
 if ($conn->connect_error) {
     echo "❌ Database connection failed: " . $conn->connect_error;
